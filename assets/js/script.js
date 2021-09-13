@@ -77,7 +77,7 @@ function getTheResult(userPicked) {
         }
     }
     userPick(userPicked);
-    computerPick(computerPicked);
+    computerPickAssignment(computerPicked);
     endResult(result);
     return result;
 }
@@ -87,7 +87,7 @@ function userPick(userIcon) {
     usersChoice.innerHTML = userIcon;
 }
 
-function computerPick(computerIcon) {
+function computerPickAssignment(computerIcon) {
     const computersChoice = document.getElementById('computer-pick');
     computersChoice.innerHTML = computerIcon;
 }
