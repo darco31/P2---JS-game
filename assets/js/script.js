@@ -78,12 +78,21 @@ function getTheResult(userPicked) {
     }
     userPick(userPicked);
     computerPick(computerPicked);
-    gameResult(result);
-    scoreUpdate(scores)
+    endResult(result);
     return result;
 }
 
 function userPick(userIcon) {
     const usersChoice = document.getElementById("user-pick");
     usersChoice.innerHTML = userIcon;
+}
+
+function computerPick(computerIcon) {
+    const computersChoice = document.getElementById('computer-pick');
+    computersChoice.innerHTML = computerIcon;
+}
+
+function endResult(gameResult) {
+    const gameFinished = document.getElementById('result');
+    gameFinished.innerHTML = gameResult;
 }
