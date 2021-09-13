@@ -1,0 +1,237 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&display=swap');
+
+/* font-family: 'Bangers',
+cursive;
+font-family: 'Roboto',
+sans-serif; */
+
+/* --------- Global style */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Global variables */
+:root {
+    --main-font-style: 'Bangers', cursive;
+    --second-font-style: 'Roboto', sans-serif;
+    --main-font-color: #171a21;
+}
+
+body {
+    background: url('../images/1125.jpg');
+}
+
+main {
+    position: relative;
+}
+
+/* Heading area */
+
+.heading {
+    font-family: var(--main-font-style);
+    color: var(--main-font-color);
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+h2 {
+    font-family: var(--second-font-style);
+}
+
+.game--area {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+#how--to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    margin: auto;
+    margin-top: 1.8rem;
+    padding: 0.6rem;
+    background-color: var(--main-font-color);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.score--area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+.controls--area,
+.score--area,
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.controls--area {
+    margin-top: 5rem;
+    position: relative;
+}
+
+#score {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.answer-message {
+    display: none;
+    font-size: 1rem;
+}
+
+.scores {
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 20px;
+    font-family: var(--second-font-style);
+}
+
+/* Buttons icons styles */
+
+.btn {
+    width: 20rem;
+    height: 4rem;
+    font-family: var(--second-font-style);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--main-font-color);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding-top: 0.8rem;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 10rem;
+    height: 10rem;
+    font-size: 6rem;
+    margin: 0 30px;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.btn--big:hover {
+    transform: rotate(360deg)
+}
+
+.btn--big::after {
+    content: attr(data-type);
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+    left: 0.2em;
+}
+
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.btn--orange {
+    border-color: orange;
+    color: orange;
+}
+
+.btn--orange:active,
+.btn--orange:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.btn--darkViolet {
+    border-color: violet;
+    color: violet;
+}
+
+.btn--darkViolet:active,
+.btn--darkViolet:hover {
+    background-color: darkviolet;
+    color: white;
+}
+
+.btn--red {
+    border-color: red;
+    color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.btn--green {
+    border-color: green;
+    color: green;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn--gray {
+    margin-top: 25px;
+    background-color: #445361;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.btn--gray:active,
+.btn--gray:hover {
+    background-color: #0d1013;
+}
+
+.score--area {
+    margin-top: 5rem;
+}
+
+.choices {
+    margin-top: 1rem;
+}
+
+/* Footer area design */
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3rem;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+
+.footer--text {
+    font-size: 2rem;
+}
