@@ -62,18 +62,28 @@ function getTheResult(userPicked) {
 
         if (userPicked === 'rock' && (computerPicked === 'scissors' || computerPicked === 'lizard')) {
             result = 'You win';
-        } else if (userPicked === 'paper' && computerPicked === 'rock' || computerPicked === 'spock') {
+        } else if (userPicked === 'paper' && (computerPicked === 'rock' || computerPicked === 'spock')) {
             result = 'You win';
-        } else if (userPicked === 'paper' && computerPicked === 'rock' || computerPicked === 'spock') {
+        } else if (userPicked === 'paper' && (computerPicked === 'rock' || computerPicked === 'spock')) {
             result = 'You win';
-        } else if (userPicked === 'scissors' && computerPicked === 'paper' || computerPicked === 'lizard') {
+        } else if (userPicked === 'scissors' && (computerPicked === 'paper' || computerPicked === 'lizard')) {
             result = 'You win';
-        } else if (userPicked === 'lizard' && computerPicked === 'spock' || computerPicked === 'paper') {
+        } else if (userPicked === 'lizard' && (computerPicked === 'spock' || computerPicked === 'paper')) {
             result = 'You win';
-        } else if (userPicked === 'spock' && computerPicked === 'scissors' || computerPicked === 'rock') {
+        } else if (userPicked === 'spock' && (computerPicked === 'scissors' || computerPicked === 'rock')) {
             result = 'You win';
         } else {
             result = 'You lose!'
         }
     }
+    userPick(userPicked);
+    computerPick(computerPicked);
+    gameResult(result);
+    scoreUpdate(scores)
+    return result;
+}
+
+function userPick(userIcon) {
+    const usersChoice = document.getElementById("user-pick");
+    usersChoice.innerHTML = userIcon;
 }
