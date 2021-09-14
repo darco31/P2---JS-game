@@ -64,19 +64,32 @@ function getTheResult(userPicked) {
     } else {
 
         if (userPicked === 'rock' && (computerPicked == 'scissors' || computerPicked == 'lizard')) {
+            increaseScore();
             result = 'You win';
+
         } else if (userPicked === 'paper' && (computerPicked == 'rock' || computerPicked == 'spock')) {
+            increaseScore()
             result = 'You win';
+
         } else if (userPicked === 'paper' && (computerPicked == 'rock' || computerPicked == 'spock')) {
+            increaseScore()
             result = 'You win';
+
         } else if (userPicked === 'scissors' && (computerPicked == 'paper' || computerPicked == 'lizard')) {
+            increaseScore()
             result = 'You win';
+
         } else if (userPicked === 'lizard' && (computerPicked == 'spock' || computerPicked == 'paper')) {
+            increaseScore()
             result = 'You win';
+
         } else if (userPicked === 'spock' && (computerPicked == 'scissors' || computerPicked == 'rock')) {
-            result = 'You win';
+            increaseScore()
+            result = 'You win';;
         } else {
+            decreaseScore()
             result = 'You lose!'
+
         }
     }
     userPick(userPicked);
@@ -98,4 +111,22 @@ function computerIcon(computerIcon) {
 function endResult(gameResult) {
     const gameFinished = document.getElementById('result');
     gameFinished.innerHTML = gameResult;
+}
+
+
+
+
+/**
+ * Increses either player score by one if they win
+ */
+function increaseScore() {
+    let newScore = parseInt(document.getElementById("user-score").innerText);
+    document.getElementById("user-score").innerText = ++newScore;
+}
+/**
+ * gets current loss from the DOM and increases it by one
+ */
+function decreaseScore() {
+    let LosingScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++LosingScore;
 }
