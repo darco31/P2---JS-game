@@ -20,9 +20,9 @@ document.querySelector('.close--result').addEventListener("click", function() {
 
 // Variables for computers choice , result and scores
 
-let computerPicked = computerPick();
+
 let result;
-let scores;
+let scores = 0;
 
 
 /**
@@ -31,7 +31,7 @@ let scores;
 
 function computerPick() {
 
-    let computerPicked = Math.floor(Math.random() * 5);
+    let computerPicked = Math.ceil(Math.random() * 5);
 
     if (computerPicked === 1) {
         return 'rock';
@@ -48,6 +48,7 @@ function computerPick() {
     }
 }
 
+
 /**
  * This function decides the outcome and displays the result in a results modal
  */
@@ -55,29 +56,31 @@ function computerPick() {
 
 function getTheResult(userPicked) {
 
+    let computerPicked = computerPick();
+
     if (userPicked === computerPicked) {
-        result = 'Its a draw, go again!';
+        result = 'Its a draw, we go again!';
 
     } else {
 
-        if (userPicked === 'rock' && (computerPicked === 'scissors' || computerPicked === 'lizard')) {
+        if (userPicked === 'rock' && (computerPicked == 'scissors' || computerPicked == 'lizard')) {
             result = 'You win';
-        } else if (userPicked === 'paper' && (computerPicked === 'rock' || computerPicked === 'spock')) {
+        } else if (userPicked === 'paper' && (computerPicked == 'rock' || computerPicked == 'spock')) {
             result = 'You win';
-        } else if (userPicked === 'paper' && (computerPicked === 'rock' || computerPicked === 'spock')) {
+        } else if (userPicked === 'paper' && (computerPicked == 'rock' || computerPicked == 'spock')) {
             result = 'You win';
-        } else if (userPicked === 'scissors' && (computerPicked === 'paper' || computerPicked === 'lizard')) {
+        } else if (userPicked === 'scissors' && (computerPicked == 'paper' || computerPicked == 'lizard')) {
             result = 'You win';
-        } else if (userPicked === 'lizard' && (computerPicked === 'spock' || computerPicked === 'paper')) {
+        } else if (userPicked === 'lizard' && (computerPicked == 'spock' || computerPicked == 'paper')) {
             result = 'You win';
-        } else if (userPicked === 'spock' && (computerPicked === 'scissors' || computerPicked === 'rock')) {
+        } else if (userPicked === 'spock' && (computerPicked == 'scissors' || computerPicked == 'rock')) {
             result = 'You win';
         } else {
             result = 'You lose!'
         }
     }
     userPick(userPicked);
-    computerPickAssignment(computerPicked);
+    computerIcon(computerPicked);
     endResult(result);
     return result;
 }
@@ -87,7 +90,7 @@ function userPick(userIcon) {
     usersChoice.innerHTML = userIcon;
 }
 
-function computerPickAssignment(computerIcon) {
+function computerIcon(computerIcon) {
     const computersChoice = document.getElementById('computer-pick');
     computersChoice.innerHTML = computerIcon;
 }
