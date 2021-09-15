@@ -1,108 +1,277 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Stephen D'Arcy - Rock - Paper - Scissors - Lizard - Spock Javascript Project.
 
-Welcome Stephen,
+![Site responsive screenshots](assets/images/readme_img.PNG)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Table of Contents
+1. [The Cupcake Factory](#The-Cupcake-Factory)
+   * [About](#About)
+   * [The business goals](#The-business-goals)
+   * [The customer goals](#The-customer-goals)
+2. [User Experience](#User-Experience)
+   * [Project goals](#Project-goals)
+   * [Design](#Design)
+   * [User Stories](#User-Stories)
+   * [Target Audience](#Target-Audience)
+   * [Wireframes](#Wireframes)
+3. [Features](#Features)
+   * [Home Page](#Home-Page)
+   * [Gallery Page](#Gallery-Page)
+   * [Contact Page](#Contact-Page)
+   * [Prices Page](#Prices-Page)
+   * [All pages](#All-pages)
+4. [Technology Used In Design](#Technology-Used-In-Design)
+   * [HTML](#HTML)
+   * [CSS](#CSS)
+   * [Libraries](#Libraries)
+5. [Testing](#Testing)
+   * [Lighthouse Testing](#Lighthouse-Testing)
+   * [Manual Testing](#Manual-Testing)
+   * [Additional Testing ](#Additional-Testing)
+6. [Deployment](#Deployment)
+7. [Credits](#Credits)
+   * [Code](#Code)
+   * [Content](#Content)
+8. [Bugs](#Bugs)
+​
+# The Cupcake Factory
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### About
+* A website dedicated to cake baking that includes a fast efficient delivery service for customers. The website features an array of cakes we bake and an easy to use contact form for anything else a customer may want to order.We offer an excellent delivery service within certain geographical ranges. The goal is to promote our small online business while encouraging others to try baking for themselves.  
 
-## Gitpod Reminders
+### The business goals
+* To build a regular customer base.
+* To always provide quality products.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### The customer goals
+* To visit and browse our products and to order their products with ease.
+* Clear easy to find product pricing and delivery prices.
 
-`python3 -m http.server`
+---
+ 
+## User Experience
 
-A blue button should appear to click: _Make Public_,
+### Project goals:
+* The main goal of the project is to advertise our business and products to a wider audience.
+* To increase visitors to the website.
+* To use the website as a platform to expand our business
+​
+### Design:
+* The design is very simplistic and uses pastel colors to mirror what may be found on a lot of cakes and baked goods. It has a clear navigation menu and the page is clearly    labeled and it is easy to go from one page to another. 
+* The images are sized correctly and each page is designed to look like the home page.
+​
+### User Stories
+* As a user I want navigate between pages.
+* As a user I want be able to view images pf products.
+* As a user I want to be able to see the prices of products in a clear manner.
+* As a user I want to be able to contact the company easily.
 
-Another blue button should appear to click: _Open Browser_.
+### Target Audience
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* The target audience for our website is mainly adults looking to make purchase of our products and to view our product range.
 
-A blue button should appear to click: _Make Public_,
+### Wireframes
 
-Another blue button should appear to click: _Open Browser_.
+* All wireframes can be found [Here](docs/Wireframes.pdf)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### [Back to content](#table-of-contents)
+---
 
-To log into the Heroku toolbelt CLI:
+## Features
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Home Page 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The home page features a hero image that is animated to draw the attention of the visitor to the purpose of our business. The image does remain animated from desktop down to mobile size. Under the hero image we have two small paragraphs outlining outlining why a customer should use our services and a question as to what we do. We have a list outlining some of the occasions we cater for and a call to action button to contact us if anything else is required or any special requests are needed.
 
-------
+Further down the home page I have three images that are animated to show the transformation of some of our bakes. These images are used as far down as tablet size but one we move to mobile sizes I have decided to hide the images to improve performance on small screen sizes.
 
-## Release History
+![All pages](assets/sitescreens/home_page.PNG)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Gallery Page
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The Gallery page has a small selection of the cakes that we can produce. One the user hovers over them the are designed to stand out with a box shadow. The page also include tha call to action contact button in case the user would like to make contact and request one of the cakes in the gallery.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![All pages](assets/sitescreens/gallery.PNG)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Contact Page
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The Contact page follows the small design principles as the other pages. The animated hero image banner is located below the navigation menu. Below this hero image is our contact form. The form has certain fields that must be completed before submitting. There is a text box for messaging and some checkboxes for or more popular orders. One checkbox gives the customer the option to choose the size of their cupcake orders. Once the contact form has been completed the user will get a thank you message from a hidden page. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![All pages](assets/sitescreens/contactform.PNG)
+![All pages](assets/sitescreens/contactmap.PNG)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Prices Page
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The Prices page displays some of our prices for again our more popular cakes. This is coupled with separate prices for different size cakes. We have clearly outlined our delivery costs and that we only deliver to a certain geographical area. If any other delivery areas further  than stated we advise the customer to contact us with their request.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![All pages](assets/sitescreens/prices.PNG)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### All Pages
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The top of the page has an easy to use navigation bar that has a underlined border to emphasize where the user is on the website. All the pages have an animated banner, the opacity has been turned down slightly. This is engage the user and also visually show the user what the site represents and what our business is. 
+The footer contains copyright information and links to social media sites that open in separate pages.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![All pages](assets/sitescreens/home_nav.PNG)
+![All pages](assets/sitescreens/social_navs.PNG)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### [Back to content](#table-of-contents)
+---
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Technology Used In Design
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### HTML
 
-------
+* HTML5 semantic code is used in all of the four website pages. There are clearly defined areas such as main, sections, headers and footers as well as list items and tables.
 
-## FAQ about the uptime script
+### CSS
 
-**Why have you added this script?**
+* CSS has been used to add styles and animations to the site making the website more appealing for people visiting us. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Libraries
 
-**How will this affect me?**
+* [Google Fonts:](https://fonts.google.com/)
+    - Google fonts was used to import the fonts Lato and Raleway that is used throughout the site.
+* [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used to add icons for visual and user experience (UX) purposes.
+* [Gitpod](https://gitpod.io/)
+    - Gitpod was used to develop the website.
+* [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git. And to host the project.
+* [Birme Image Resizing:](https://www.birme.net/?target_width=700&target_height=100&auto_focal=false)
+    - Image Resizer was used to resizing images and edit profile photos for the website.
+* [Balsamic:](https://balsamiq.com/)
+    - Balsamiq was used during the design process to create Wireframes.
+* [Responsive Design Checker:](http://ami.responsivedesign.is/)
+    - Am I Responsive was used in the testing process to check responsiveness on various devices.
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+    - Used to validate the HTML code.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate the CSS code.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### [Back to content](#table-of-contents)
+---
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Testing
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Testing was manually completed through the use of Googles Chrome browser and Firefox browser in conjunction with their development tools accessed through their website.
 
-**So….?**
+## Lighthouse Testing
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![LightHouse Result](docs/Lighthousetest.PNG)
 
-**Can I opt out?**
+### User Stories Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* #### As a user I want navigate between pages.
+On the home page in the top right their are navigation links that seamless work between each page the user wants to visit. The page the user is on is identified by the underlined border on each link as the click through the website.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* #### As a user I want be able to view images pf products.
+When the user navigates to the Galley page the images for the products we offer are clearly laid out and visible to the user. They can hover over each image and the current image will transition a small bit with a shadow to indicate which image is being viewed.
 
-**Anything more?**
+* #### As a user I want to be able to see the prices of products in a clear manner.
+The user can navigate through the navigation menu to the prices page where there is a list of our price laid out for different size products. We encourage the use of the contact page for any other requests that use may need.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* #### As a user I want to be able to contact the company easily.
+The contact page is laid out with a contact from in the center of the page under the main hero image. Each field is identifiable and any fields that are required are called out when the user clicks the contact us button. There is also a rest button in case of any user mistakes.
+
+### Manual Testing
+1. Navigation - Repeated steps on all pages.
+
+* Click on logo to confirm that it navigates to the home page.
+* Click on all navigation links to verify that they direct to the correct pages.
+* Verify that the current page the user is on, is highlighted as active in the menu with border underline.
+* Verify that the navigation menu adjusts to the size of different screens. The navigation menu should shift from right to left and center for mobiles.
+
+2. Home page
+* Verification that the banner on the hero image plays when the page is loaded and continues to do so
+* Verify that the animation on the three images plays once the page is loaded.
+* Verify that the call to action contact button redirects to the correct page.
+
+3. Gallery
+* Verify that all images are showing in desktop, tablet and mobile.
+* Verify that all images are responding to the hover effect.
+* Verify that the call to action contact button redirects to the correct page.
+
+4. Prices
+* Verify that the prices table is reflecting the correct data.
+* Verify that the page is responsive.
+* Verify that the call to action contact button redirects to the correct page.
+
+5. Contact
+* Verify that all elements that are set to required are working.
+* Verify that valid email address is needed with relevant '@' included.
+* Verify that 'Submit' button directs user to the hidden thank you page.
+
+6. Contact Form success
+* Verify that navigation goes to the thank you page and the user can return to the home page if required.
+
+7. Footer - Repeated steps on all pages.
+* Verify that the social media links open in a new tab.
+
+### Additional Testing  
+
+W3C - HTML Validator
+
+W3C - CSS Validator
+
+![LightHouse Result](docs/css_validator.PNG)
+
+#### [Back to content](#table-of-contents)
 
 ---
 
-Happy coding!
+## Deployment
+
+### Project creation
+
+* I developed and deployed the Website using Github abd Gitpod as my code editor using the below steps:
+1. Create your account using the email of choice.
+1. Create a new repository giving it a name.
+1. Click the Gitpod button to start the code editor.
+1. Once the code was written I would recommend small commits rather than large ones using the below:
+    * git add . .
+    * git commit -m "Your message here"
+    * git push 
+
+### Deployment of existing site
+* Log in to your Github page.
+* Click settings and scroll down the left to find pages.
+* From source click main.
+* The site will be generated under a live address.
+* This site can be found here: [The CupCake Factory](https://darco31.github.io/theCupCakeFactory/)
+
+#### [Back to content](#table-of-contents)
+
+---
+
+## Credits
+
+### Code
+
+* Code construct credit to The Code Institute and their informative and well laid out lessons.
+* Also credit to [W3 Schools](https://www.w3schools.com/), their lessons on tables and the Grid layout helped to further my understanding.
+* Pictures and videos are from [Pexels](https://www.pexels.com/)
+
+### Content
+* All content written by the developer Stephen D'Arcy
+
+* Thanks to my mentor Miguel for all his advice and help throughout the project. Also to the various people on Slack who helped with little bugs and always provided encouragement.
+---
+
+## Bugs
+
+* Gitpod
+
+Bug found in Gitpod where the text in the terminal is virtually unreadable making spelling mistakes hard to see when writing commit messages. This was identified as a known issue and was being investigated by the Gitpod teams.
+
+![Gitpod terminal image](assets/images/gitpod_img.PNG)
+
+Links when used in Gitpod are not working correctly. I had to push the changes to github and test from there. Gitpod is also showing some of the back to top links with the hashtags. Again this is not representative of the github page. I have come across a lot of issues in Gitpod that cause the developer to use more steps to verify their code.
+
+* Code validation:
+
+When I have validated all the code in W3 validator there are two known warnings to include headings. The headings are intentionally left out as there are not required. there is no content in the code.
+
+* Internet Explorer 11
+
+The hero banner is not covering the page and the maps state that the browser is not supported. As IE11 is not used as much and will be obsolete soon being replaced with MS Edge I believe it would be of no benefit to  fix the issue as it may cause issues on other more popular browsers.
+
+#### [Back to content](#table-of-contents)
