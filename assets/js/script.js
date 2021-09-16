@@ -18,6 +18,12 @@ document.querySelector('.close--result').addEventListener("click", function() {
     document.querySelector('.result__modal').style.display = "none";
 });
 
+document.querySelector('#play--again ').addEventListener("click", function() {
+    document.querySelector('.result__modal').style.display = "none";
+});
+
+
+
 // Variables for computers choice , result and scores
 
 

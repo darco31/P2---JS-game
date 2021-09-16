@@ -29,16 +29,7 @@ main {
     position: relative;
 }
 
-/* Heading area */
-
-.heading {
-    font-family: var(--main-font-style);
-    color: var(--main-font-color);
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 2rem;
-}
-
+/* Top area */
 h2 {
     font-family: var(--second-font-style);
 }
@@ -65,10 +56,18 @@ h2 {
     cursor: pointer;
 }
 
-.score--area {
-    margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
+#play--again {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 50px auto;
+    padding: 0.4rem;
+    background-color: var(--main-font-color);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .controls--area,
@@ -213,7 +212,8 @@ h2 {
 }
 
 .score--area {
-    margin-top: 5rem;
+    margin: 5px auto;
+    width: 60%;
 }
 
 .choices {
@@ -297,7 +297,7 @@ h2 {
         font-family: var(--main-font-style);
         color: var(--main-font-color);
         text-align: center;
-        font-size: 2rem;
+        font-size: 4rem;
         margin: 2rem
     }
 
@@ -333,12 +333,12 @@ h2 {
     }
 
     .score--area {
-        width: 60%;
+        width: 80%;
         font-size: 1.8rem;
     }
 
     .score--area>p {
-        padding: .5rem;
+        padding: .8rem;
     }
 
 
