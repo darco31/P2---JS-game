@@ -29,6 +29,20 @@ main {
     position: relative;
 }
 
+/* Colors for model result on uesr and computer pick */
+
+#user-pick {
+    color: rgb(97, 97, 253);
+}
+
+#computer-pick {
+    color: rgb(0, 153, 255);
+}
+
+#result {
+    color: rgb(252, 85, 34);
+}
+
 /* Top area */
 h2 {
     font-family: var(--second-font-style);
@@ -56,7 +70,8 @@ h2 {
     cursor: pointer;
 }
 
-#play--again {
+#play--again,
+.reset-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,7 +270,7 @@ h2 {
 
 .modal--contents {
     width: 31.25rem;
-    height: 22rem;
+    height: 28rem;
     background-color: #fff;
     border-radius: 4px;
     padding: .6rem;

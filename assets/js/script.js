@@ -40,15 +40,15 @@ function computerPick() {
     let computerPicked = Math.ceil(Math.random() * 5);
 
     if (computerPicked === 1) {
-        return 'rock';
+        return 'Rock';
     } else if (computerPicked === 2) {
-        return 'paper'
+        return 'Paper'
     } else if (computerPicked === 3) {
-        return 'scissors';
+        return 'Scissors';
     } else if (computerPicked === 4) {
-        return 'lizard';
+        return 'Lizard';
     } else if (computerPicked === 5) {
-        return 'spock';
+        return 'Spock';
     } else {
         return 'error'
     }
@@ -69,27 +69,27 @@ function getTheResult(userPicked) {
 
     } else {
 
-        if (userPicked === 'rock' && (computerPicked == 'scissors' || computerPicked == 'lizard')) {
+        if (userPicked === 'Rock' && (computerPicked == 'Scissors' || computerPicked == 'Lizard')) {
             increaseScore();
             result = 'You win';
 
-        } else if (userPicked === 'paper' && (computerPicked == 'rock' || computerPicked == 'spock')) {
+        } else if (userPicked === 'Paper' && (computerPicked == 'Rock' || computerPicked == 'Spock')) {
             increaseScore()
             result = 'You win';
 
-        } else if (userPicked === 'paper' && (computerPicked == 'rock' || computerPicked == 'spock')) {
+        } else if (userPicked === 'Paper' && (computerPicked == 'Rock' || computerPicked == 'Spock')) {
             increaseScore()
             result = 'You win';
 
-        } else if (userPicked === 'scissors' && (computerPicked == 'paper' || computerPicked == 'lizard')) {
+        } else if (userPicked === 'Scissors' && (computerPicked == 'Paper' || computerPicked == 'Lizard')) {
             increaseScore()
             result = 'You win';
 
-        } else if (userPicked === 'lizard' && (computerPicked == 'spock' || computerPicked == 'paper')) {
+        } else if (userPicked === 'Lizard' && (computerPicked == 'Spock' || computerPicked == 'Paper')) {
             increaseScore()
             result = 'You win';
 
-        } else if (userPicked === 'spock' && (computerPicked == 'scissors' || computerPicked == 'rock')) {
+        } else if (userPicked === 'Spock' && (computerPicked == 'Scissors' || computerPicked == 'Rock')) {
             increaseScore()
             result = 'You win';;
         } else {
