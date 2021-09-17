@@ -128,6 +128,11 @@ function endResult(gameResult) {
 function increaseScore() {
     let newScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++newScore;
+
+    if (newScore === 6) {
+        document.getElementById("user-score").innerText = 0;
+        alert('You win')
+    }
 }
 /**
  * gets current loss from the DOM and increases it by one
