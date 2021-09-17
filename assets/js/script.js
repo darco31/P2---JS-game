@@ -119,7 +119,14 @@ function endResult(gameResult) {
     gameFinished.innerHTML = gameResult;
 }
 
+/**
+ * Resets all scores for all players
+ */
 
+function resetScores() {
+    document.getElementById('user-score').innerText = 0;
+    document.getElementById('computer-score').innerText = 0;
+}
 
 
 /**
@@ -128,11 +135,6 @@ function endResult(gameResult) {
 function increaseScore() {
     let newScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++newScore;
-
-    if (newScore === 6) {
-        document.getElementById("user-score").innerText = 0;
-        alert('You win')
-    }
 }
 /**
  * gets current loss from the DOM and increases it by one
@@ -140,4 +142,5 @@ function increaseScore() {
 function decreaseScore() {
     let LosingScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++LosingScore;
+
 }
