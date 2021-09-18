@@ -135,6 +135,10 @@ function resetScores() {
 function increaseScore() {
     let newScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++newScore;
+
+    if (newScore === 2) {
+        alert('Game Over!')
+    }
 }
 /**
  * gets current loss from the DOM and increases it by one
