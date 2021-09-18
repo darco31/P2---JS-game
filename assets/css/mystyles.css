@@ -43,9 +43,14 @@ main {
     color: rgb(252, 85, 34);
 }
 
+.winning--score {
+    color: rgb(252, 85, 34);
+}
+
 /* Top area */
 h2 {
     font-family: var(--second-font-style);
+    margin-top: 2rem;
 }
 
 .game--area {
@@ -97,15 +102,15 @@ h2 {
     position: relative;
 }
 
-#score {
+/* #score {
     color: green;
     font-weight: bold;
-}
+} */
 
-#incorrect {
+/* #incorrect {
     color: red;
     font-weight: bold;
-}
+} */
 
 .answer-message {
     display: none;
@@ -423,10 +428,25 @@ h2 {
     }
 
     .footer--text {
-        /* margin: 1rem 0 1rem 0; */
         font-size: 1rem;
         font-family: var(--second-font-style);
     }
+
+    .scores {
+        font-size: 1rem;
+    }
+
+    .choices {
+        font-size: 1rem;
+    }
+
+    #play--again,
+    .reset-button {
+        width: 40%;
+        margin: 20px auto;
+        padding: 0.2rem;
+    }
+
 
 
 }
