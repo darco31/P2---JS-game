@@ -35,22 +35,48 @@ let scores = 0;
  * Function to generate a random number to assign to computer game choice
  */
 
+// function computerPick() {
+
+//     let computerPicked = Math.ceil(Math.random() * 5);
+
+//     if (computerPicked === 1) {
+//         return 'Rock';
+//     } else if (computerPicked === 2) {
+//         return 'Paper'
+//     } else if (computerPicked === 3) {
+//         return 'Scissors';
+//     } else if (computerPicked === 4) {
+//         return 'Lizard';
+//     } else if (computerPicked === 5) {
+//         return 'Spock';
+//     } else {
+//         return 'error'
+//     }
+// }
+
 function computerPick() {
 
     let computerPicked = Math.ceil(Math.random() * 5);
 
-    if (computerPicked === 1) {
-        return 'Rock';
-    } else if (computerPicked === 2) {
-        return 'Paper'
-    } else if (computerPicked === 3) {
-        return 'Scissors';
-    } else if (computerPicked === 4) {
-        return 'Lizard';
-    } else if (computerPicked === 5) {
-        return 'Spock';
-    } else {
-        return 'error'
+    switch (computerPicked) {
+
+        case 1:
+            return 'Rock';
+            break;
+        case 2:
+            return 'Paper'
+            break;
+        case 3:
+            return 'Scissors';
+            break;
+        case 4:
+            return 'Lizard';
+            break;
+        case 5:
+            return 'Spock';
+            break;
+        default:
+            return 'error'
     }
 }
 
@@ -136,9 +162,9 @@ function increaseScore() {
     let newScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++newScore;
 
-    if (newScore === 2) {
-        alert('Game Over!')
-    }
+    // if (newScore === 2) {
+    //     alert('Game Over!')
+    // }
 }
 /**
  * gets current loss from the DOM and increases it by one
