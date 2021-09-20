@@ -1,6 +1,6 @@
 # Stephen D'Arcy - Rock - Paper - Scissors - Lizard - Spock Javascript Project.
 
-![Site responsive screenshots](assets/images/readme_img.PNG)
+![Site responsive screenshots](assets/images/responsive.PNG)
 
 # Table of Contents
 1. [The Cupcake Factory](#The-Cupcake-Factory)
