@@ -33,7 +33,7 @@
    * [Content](#Content)
 8. [Bugs](#Bugs)
 ​
-# The Cupcake Factory
+# Rock-Paper-Scissors-Lizard-Spock
 
 ### About
 * A small fun interactive Javascript game that can be played by all. test your wits against the computer.  
@@ -43,20 +43,19 @@
 * To provide an intuative interface for the user.
 
 ### The customer goals
-* To visit and browse our products and to order their products with ease.
-* Clear easy to find product pricing and delivery prices.
+* To have a clear understanding of the game and how to play it.
+* Clear easy to read instructions and alerts avaiable at all times.
 
 ---
  
 ## User Experience
 
 ### Project goals:
-* The main goal of the project is to advertise our business and products to a wider audience.
-* To increase visitors to the website.
-* To use the website as a platform to expand our business
+* The main goal of the project is to showcase my game to a wider audience that can be played and is visually pleasing for all users.
+* On positive feed back add functionality to the exsoisting game and add more games to the page.
 ​
 ### Design:
-* The design is very simplistic and uses pastel colors to mirror what may be found on a lot of cakes and baked goods. It has a clear navigation menu and the page is clearly    labeled and it is easy to go from one page to another. 
+* The design uses a space themed background image eith bold fonts that contrast each other very well and allow the user to easily distiguish between headings and call to action buttons.
 * The images are sized correctly and each page is designed to look like the home page.
 ​
 ### User Stories
