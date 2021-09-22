@@ -102,16 +102,6 @@ h2 {
     position: relative;
 }
 
-/* #score {
-    color: green;
-    font-weight: bold;
-} */
-
-/* #incorrect {
-    color: red;
-    font-weight: bold;
-} */
-
 .answer-message {
     display: none;
     font-size: 1rem;
@@ -259,7 +249,8 @@ h2 {
 /* Modal styles */
 
 .pop__out__modal,
-.result__modal {
+.result__modal,
+.winner__modal {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -297,7 +288,8 @@ h2 {
 }
 
 .close--button,
-.close--result {
+.close--result,
+.winner__modal {
     position: absolute;
     padding: 0.4rem;
     font-size: 2rem;
@@ -306,7 +298,8 @@ h2 {
 }
 
 .close--button:hover,
-.close--result:hover {
+.close--result:hover,
+.winner__modal {
     color: #666;
 }
 

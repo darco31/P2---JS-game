@@ -26,33 +26,13 @@ document.querySelector('#play--again ').addEventListener("click", function() {
 
 // Variables for computers choice , result and scores
 
-
 let result;
-let scores = 0;
-
+let scores;
 
 /**
  * Function to generate a random number to assign to computer game choice
  */
 
-// function computerPick() {
-
-//     let computerPicked = Math.ceil(Math.random() * 5);
-
-//     if (computerPicked === 1) {
-//         return 'Rock';
-//     } else if (computerPicked === 2) {
-//         return 'Paper'
-//     } else if (computerPicked === 3) {
-//         return 'Scissors';
-//     } else if (computerPicked === 4) {
-//         return 'Lizard';
-//     } else if (computerPicked === 5) {
-//         return 'Spock';
-//     } else {
-//         return 'error'
-//     }
-// }
 
 function computerPick() {
 
@@ -126,8 +106,11 @@ function getTheResult(userPicked) {
     }
     userPick(userPicked);
     computerIcon(computerPicked);
+
     endResult(result);
     return result;
+
+
 }
 
 function userPick(userIcon) {
@@ -162,15 +145,20 @@ function increaseScore() {
     let newScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++newScore;
 
-    // if (newScore === 2) {
-    //     alert('Game Over!')
-    // }
+    if (newScore >= 9) {
+        alert('You won , well done')
+
+    }
+
 }
 /**
  * gets current loss from the DOM and increases it by one
  */
 function decreaseScore() {
-    let LosingScore = parseInt(document.getElementById("computer-score").innerText);
-    document.getElementById("computer-score").innerText = ++LosingScore;
+    let losingScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++losingScore;
 
+    if (losingScore >= 9) {
+        alert('Bazinga!! The computer won')
+    }
 }
