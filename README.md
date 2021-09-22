@@ -59,14 +59,16 @@
 * The images are sized correctly and each page is designed to look like the home page.
 ​
 ### User Stories
-* As a user I want navigate between pages.
-* As a user I want be able to view images pf products.
-* As a user I want to be able to see the prices of products in a clear manner.
-* As a user I want to be able to contact the company easily.
+* As a user I want to understand what I am looking at and its use.
+* As a user I want to be able to understand the rules of the game and its objectives.
+* As a user I want to be able to easily find the buttons I need to press.
+* As a user I want to be able to view the results of each game.
+* As a user I would like to be able to rest the scores on the bored.
+* As a user I would like to be givena  visual alert on the winner of the game.
 
 ### Target Audience
 
-* The target audience for our website is mainly adults looking to make purchase of our products and to view our product range.
+* The target audience for our website is everyone young and old who enjoy games.
 
 ### Wireframes
 
