@@ -145,7 +145,7 @@ function increaseScore() {
     let newScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++newScore;
 
-    if (newScore >= 9) {
+    if (newScore >= 5) {
         alert('You won , well done')
 
     }
@@ -158,7 +158,7 @@ function decreaseScore() {
     let losingScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++losingScore;
 
-    if (losingScore >= 9) {
+    if (losingScore >= 5) {
         alert('Bazinga!! The computer won')
     }
 }
