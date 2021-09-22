@@ -3,7 +3,7 @@
 ![Site responsive screenshots](assets/images/responsive.PNG)
 
 # Table of Contents
-1. [The Cupcake Factory](#The-Cupcake-Factory)
+1. [Rock-Paper-Scissors-Lizard-Spock](#The-Cupcake-Factory)
    * [About](#About)
    * [The business goals](#The-business-goals)
    * [The customer goals](#The-customer-goals)
@@ -36,11 +36,11 @@
 # The Cupcake Factory
 
 ### About
-* A website dedicated to cake baking that includes a fast efficient delivery service for customers. The website features an array of cakes we bake and an easy to use contact form for anything else a customer may want to order.We offer an excellent delivery service within certain geographical ranges. The goal is to promote our small online business while encouraging others to try baking for themselves.  
+* A small fun interactive Javascript game that can be played by all. test your wits against the computer.  
 
 ### The business goals
-* To build a regular customer base.
-* To always provide quality products.
+* To build a fun interactive game that can be enjoyed by everyone.
+* To provide an intuative interface for the user.
 
 ### The customer goals
 * To visit and browse our products and to order their products with ease.
