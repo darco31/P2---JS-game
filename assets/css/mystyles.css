@@ -257,8 +257,7 @@ h2 {
 /* Modal styles */
 
 .pop__out__modal,
-.result__modal,
-.winner__modal {
+.result__modal {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -293,11 +292,11 @@ h2 {
     padding-top: .2rem;
     font-family: var(--second-font-style);
     text-align: center;
+    line-height: 1.6;
 }
 
 .close--button,
-.close--result,
-.winner__modal {
+.close--result {
     position: absolute;
     padding: 0.4rem;
     font-size: 2rem;
@@ -306,9 +305,12 @@ h2 {
 }
 
 .close--button:hover,
-.close--result:hover,
-.winner__modal {
+.close--result:hover {
     color: #666;
+}
+
+.rules--list {
+    margin-top: 1rem;
 }
 
 /* Media queries */
