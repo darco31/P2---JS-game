@@ -148,8 +148,8 @@ function increaseScore() {
     if (newScore >= 5) {
         alert('You won , well done')
 
+        document.querySelector('#play--again').style.display = "none";
     }
-
 }
 /**
  * gets current loss from the DOM and increases it by one
@@ -160,6 +160,13 @@ function decreaseScore() {
 
     if (losingScore >= 5) {
         alert('Bazinga!! The computer won')
-    }
 
+        document.querySelector('#play--again').style.display = "none";
+    }
+}
+
+if (resetScores) {
+    document.querySelector('.reset-button ').addEventListener("click", function() {
+        document.querySelector('#play--again').style.display = "flex";
+    });
 }
