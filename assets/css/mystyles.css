@@ -33,14 +33,28 @@ main {
 
 #user-pick {
     color: rgb(97, 97, 253);
+    font-size: 1.2rem;
+    font-family: var(--second-font-style);
 }
 
 #computer-pick {
     color: rgb(0, 153, 255);
+    font-size: 1.2rem;
+    font-family: var(--second-font-style);
 }
 
 #result {
     color: rgb(252, 85, 34);
+    font-size: 1.2rem;
+    font-family: var(--second-font-style);
+}
+
+#user-pick,
+#computer-pick,
+#result {
+    padding: 2px;
+    display: flex;
+    justify-content: center;
 }
 
 .winning--score {
@@ -59,6 +73,11 @@ h4 {
     justify-content: center;
     font-size: 1.5rem;
     color: var(--main-font-color);
+    font-family: 'Bungee Inline', cursive;
+}
+
+.choices {
+    font-size: 1rem;
 }
 
 .game--area {
@@ -89,7 +108,7 @@ h4 {
     justify-content: center;
     align-items: center;
     width: 20%;
-    margin: 50px auto;
+    margin: 20px auto;
     padding: 0.4rem;
     background-color: var(--main-font-color);
     color: #fff;
@@ -293,6 +312,8 @@ h2 {
     font-family: var(--second-font-style);
     text-align: center;
     line-height: 1.6;
+    font-weight: bold;
+
 }
 
 .close--button,
@@ -311,6 +332,10 @@ h2 {
 
 .rules--list {
     margin-top: 1rem;
+}
+
+.rules--list>li:nth-child(odd) {
+    color: rgb(161, 133, 212);
 }
 
 /* Media queries */
@@ -441,6 +466,7 @@ h2 {
 
     .choices {
         font-size: 1rem;
+        margin-bottom: 2px;
     }
 
     #play--again,
