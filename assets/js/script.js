@@ -165,6 +165,7 @@ function decreaseScore() {
     }
 }
 
+
 if (resetScores) {
     document.querySelector('.reset-button ').addEventListener("click", function() {
         document.querySelector('#play--again').style.display = "flex";
