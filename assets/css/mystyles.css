@@ -301,8 +301,8 @@ h2 {
 
 .win--modal--contents,
 .lose--modal--contents {
-    width: 15rem;
-    height: 5rem;
+    width: 17rem;
+    height: 4rem;
     background-color: #fff;
     border-radius: 4px;
     padding: .6rem;
