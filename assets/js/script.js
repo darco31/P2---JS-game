@@ -25,8 +25,13 @@ document.querySelector('#play--again ').addEventListener("click", function() {
 //Close final result modal
 
 document.querySelector('.close--final').addEventListener("click", function() {
-    document.querySelector('.test__modal').style.display = "none";
+    document.querySelector('.win__modal').style.display = "none";
 });
+
+document.querySelector('.close--lose').addEventListener("click", function() {
+    document.querySelector('.lose__modal').style.display = "none";
+});
+
 
 
 // Variables for computers choice , result and scores
@@ -151,13 +156,9 @@ function increaseScore() {
     document.getElementById("user-score").innerText = ++newScore;
 
     if (newScore >= 3) {
-        // alert('You won , well done')
-        document.querySelector('.test__modal').style.display = "flex";
-        document.querySelector('.win').innerHTML = 'You Won';
+        document.querySelector('.win__modal').style.display = "flex";
+        document.getElementById('win').innerHTML = 'Congratulations! You Won';
         document.querySelector('#play--again').style.display = "none";
-        // } else if (losingScore > newScore) {
-        //     document.querySelector('.lose').innerHTML = 'You Lost';
-
     }
 }
 /**
@@ -168,9 +169,8 @@ function decreaseScore() {
     document.getElementById("computer-score").innerText = ++losingScore;
 
     if (losingScore >= 3) {
-        // alert('Bazinga!! The computer won')
-        document.querySelector('.test__modal').style.display = "flex";
-        document.querySelector('.lose').innerHTML = 'You Lost';
+        document.querySelector('.lose__modal').style.display = "flex";
+        document.getElementById('lose').innerHTML = 'BAZINGA!  You Lost';
         document.querySelector('#play--again').style.display = "none";
     }
 }

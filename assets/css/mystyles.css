@@ -277,7 +277,8 @@ h2 {
 
 .pop__out__modal,
 .result__modal,
-.test__modal {
+.win__modal,
+.lose__modal {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -287,13 +288,21 @@ h2 {
     align-items: center;
     justify-content: center;
     z-index: 5;
-
 }
-
 
 .modal--contents {
     width: 31.25rem;
     height: 28rem;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: .6rem;
+    position: relative;
+}
+
+.win--modal--contents,
+.lose--modal--contents {
+    width: 15rem;
+    height: 5rem;
     background-color: #fff;
     border-radius: 4px;
     padding: .6rem;
@@ -320,7 +329,8 @@ h2 {
 
 .close--button,
 .close--result,
-.close--final {
+.close--final,
+.close--lose {
     position: absolute;
     padding: 0.4rem;
     font-size: 2rem;
@@ -330,7 +340,8 @@ h2 {
 
 .close--button:hover,
 .close--result:hover,
-.close--final:hover {
+.close--final:hover,
+.close--lose:hover {
     color: #666;
 }
 
