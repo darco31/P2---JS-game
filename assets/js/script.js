@@ -106,9 +106,9 @@ function getTheResult(userPicked) {
     }
     userPick(userPicked);
     computerIcon(computerPicked);
-
     endResult(result);
     return result;
+
 
 
 }
@@ -161,4 +161,5 @@ function decreaseScore() {
     if (losingScore >= 5) {
         alert('Bazinga!! The computer won')
     }
+
 }
