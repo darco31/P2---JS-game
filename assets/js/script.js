@@ -155,7 +155,7 @@ function increaseScore() {
     let newScore = parseInt(document.getElementById("user-score").innerText);
     document.getElementById("user-score").innerText = ++newScore;
 
-    if (newScore >= 3) {
+    if (newScore >= 5) {
         document.querySelector('.win__modal').style.display = "flex";
         document.getElementById('win').innerHTML = 'Congratulations! You Won';
         document.querySelector('#play--again').style.display = "none";
@@ -168,7 +168,7 @@ function decreaseScore() {
     let losingScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++losingScore;
 
-    if (losingScore >= 3) {
+    if (losingScore >= 5) {
         document.querySelector('.lose__modal').style.display = "flex";
         document.getElementById('lose').innerHTML = 'BAZINGA!  You Lost';
         document.querySelector('#play--again').style.display = "none";
