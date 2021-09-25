@@ -52,19 +52,14 @@ function computerPick() {
 
         case 1:
             return 'Rock';
-            break;
         case 2:
             return 'Paper'
-            break;
         case 3:
             return 'Scissors';
-            break;
         case 4:
             return 'Lizard';
-            break;
         case 5:
             return 'Spock';
-            break;
         default:
             return 'error'
     }
