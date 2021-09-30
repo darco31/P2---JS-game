@@ -148,17 +148,17 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 
 ### User Stories Testing
 
-* #### As a user I want navigate between pages.
-On the home page in the top right their are navigation links that seamless work between each page the user wants to visit. The page the user is on is identified by the underlined border on each link as the click through the website.
+* #### As a user I want to understand what I am looking at and its use.
 
-* #### As a user I want be able to view images pf products.
-When the user navigates to the Galley page the images for the products we offer are clearly laid out and visible to the user. They can hover over each image and the current image will transition a small bit with a shadow to indicate which image is being viewed.
+* #### As a user I want to be able to understand the rules of the game and its objectives.
 
-* #### As a user I want to be able to see the prices of products in a clear manner.
-The user can navigate through the navigation menu to the prices page where there is a list of our price laid out for different size products. We encourage the use of the contact page for any other requests that use may need.
+* #### As a user I want to be able to easily find the buttons I need to press.
 
-* #### As a user I want to be able to contact the company easily.
-The contact page is laid out with a contact from in the center of the page under the main hero image. Each field is identifiable and any fields that are required are called out when the user clicks the contact us button. There is also a rest button in case of any user mistakes.
+* #### As a user I want to be able to view the results of each game.
+
+* #### As a user I would like to be givena visual alert on the winner of the game.
+
+* #### As a user I want to be able to view the results of each game.
 
 ### Manual Testing
 1. Navigation - Repeated steps on all pages.
