@@ -270,7 +270,23 @@ h2 {
 }
 
 .footer--text {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: var(--main-font-color);
 }
 
 /* Modal styles */
