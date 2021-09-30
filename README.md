@@ -85,34 +85,14 @@ Uder hte call to action buton we have designed five seperate buttons that are us
 
 Below the game buttons the footer holds text regarding the inspiation behind teh game and all social media links.
 
-![All pages](assets/sitescreens/home_page.PNG)
 
-#### Gallery Page
+![All pages](assets/sitescreens/main_home.PNG)
+![All pages](assets/sitescreens/call_to_action.PNG)
+![All pages](assets/sitescreens/game_buttons.PNG)
+![All pages](assets/sitescreens/heading.PNG)
+![All pages](assets/sitescreens/result_modal.PNG)
+![All pages](assets/sitescreens/how_to_play.PNG)
 
-The Gallery page has a small selection of the cakes that we can produce. One the user hovers over them the are designed to stand out with a box shadow. The page also include tha call to action contact button in case the user would like to make contact and request one of the cakes in the gallery.
-
-![All pages](assets/sitescreens/gallery.PNG)
-
-#### Contact Page
-
-The Contact page follows the small design principles as the other pages. The animated hero image banner is located below the navigation menu. Below this hero image is our contact form. The form has certain fields that must be completed before submitting. There is a text box for messaging and some checkboxes for or more popular orders. One checkbox gives the customer the option to choose the size of their cupcake orders. Once the contact form has been completed the user will get a thank you message from a hidden page. 
-
-![All pages](assets/sitescreens/contactform.PNG)
-![All pages](assets/sitescreens/contactmap.PNG)
-
-#### Prices Page
-
-The Prices page displays some of our prices for again our more popular cakes. This is coupled with separate prices for different size cakes. We have clearly outlined our delivery costs and that we only deliver to a certain geographical area. If any other delivery areas further  than stated we advise the customer to contact us with their request.
-
-![All pages](assets/sitescreens/prices.PNG)
-
-#### All Pages
-
-The top of the page has an easy to use navigation bar that has a underlined border to emphasize where the user is on the website. All the pages have an animated banner, the opacity has been turned down slightly. This is engage the user and also visually show the user what the site represents and what our business is. 
-The footer contains copyright information and links to social media sites that open in separate pages.
-
-![All pages](assets/sitescreens/home_nav.PNG)
-![All pages](assets/sitescreens/social_navs.PNG)
 
 #### [Back to content](#table-of-contents)
 ---
@@ -121,11 +101,15 @@ The footer contains copyright information and links to social media sites that o
 
 ### HTML
 
-* HTML5 semantic code is used in all of the four website pages. There are clearly defined areas such as main, sections, headers and footers as well as list items and tables.
+* HTML5 semantic code is used on the main page. There are clearly defined areas such as main, sections, headers and footers as well as list items and tables.
 
 ### CSS
 
 * CSS has been used to add styles and animations to the site making the website more appealing for people visiting us. 
+
+### JavaScript
+
+* Javascript has been used to make the game/site interaxctive for the user. The buttons and modals are all controlled by the Javascript.
 
 ### Libraries
 
