@@ -126,8 +126,6 @@ Below the game buttons the footer holds text regarding the inspiation behind teh
     - Gitpod was used to develop the website.
 * [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git. And to host the project.
-* [Birme Image Resizing:](https://www.birme.net/?target_width=700&target_height=100&auto_focal=false)
-    - Image Resizer was used to resizing images and edit profile photos for the website.
 * [Balsamic:](https://balsamiq.com/)
     - Balsamiq was used during the design process to create Wireframes.
 * [Responsive Design Checker:](http://ami.responsivedesign.is/)
@@ -142,7 +140,7 @@ Below the game buttons the footer holds text regarding the inspiation behind teh
 
 ## Testing
 
-Testing was manually completed through the use of Googles Chrome browser and Firefox browser in conjunction with their development tools accessed through their website.
+Testing was manually completed through the use of Googles Chrome browser and Firefox browser in conjunction with their development tools accessed through their website. The game was also tested on mobile screens by family members.
 
 ## Lighthouse Testing
 
