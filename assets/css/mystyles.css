@@ -262,7 +262,7 @@ h2 {
 #footer {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 4rem;
     height: 3rem;
     background-color: transparent;
     width: 100%;
@@ -271,6 +271,7 @@ h2 {
 
 .footer--text {
     font-size: 1.5rem;
+    margin-bottom: 5rem;
 }
 
 .social-networks {
@@ -284,7 +285,6 @@ h2 {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
     padding: 2%;
     color: var(--main-font-color);
 }
