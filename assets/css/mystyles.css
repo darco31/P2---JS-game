@@ -420,8 +420,6 @@ h2 {
     .score--area>p {
         padding: .8rem;
     }
-
-
 }
 
 @media screen and (max-width: 600px) {
@@ -484,7 +482,7 @@ h2 {
 
     #footer {
         position: relative;
-        bottom: 0;
+        bottom: -2rem;
     }
 
     .footer--text {
