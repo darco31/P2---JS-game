@@ -80,10 +80,10 @@
 ## Features
 
 #### Home Page 
+There is only one page for this game , the homapge has a heading witht he name of the game. This set onto a purple background image.Just under the heading we have a call to action for the user to begin the game or a call to action button that will call a modal pop up that exaplins the rules of the game to the user.
+Uder hte call to action buton we have designed five seperate buttons that are used to play the game. Once the user presses a button the game will begin. Afte each button push a new modal will popup displaying the result of that round. Another button will be available to the user to play the next round or rerset the scores. If the user picks the next round button the games continues , if they choose the reset scores button the scoreborad will be reset and the user can start again. 
 
-The home page features a hero image that is animated to draw the attention of the visitor to the purpose of our business. The image does remain animated from desktop down to mobile size. Under the hero image we have two small paragraphs outlining outlining why a customer should use our services and a question as to what we do. We have a list outlining some of the occasions we cater for and a call to action button to contact us if anything else is required or any special requests are needed.
-
-Further down the home page I have three images that are animated to show the transformation of some of our bakes. These images are used as far down as tablet size but one we move to mobile sizes I have decided to hide the images to improve performance on small screen sizes.
+Below the game buttons the footer holds text regarding the inspiation behind teh game and all social media links.
 
 ![All pages](assets/sitescreens/home_page.PNG)
 
