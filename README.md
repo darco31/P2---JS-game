@@ -81,16 +81,21 @@
 
 #### Home Page 
 There is only one page for this game , the homapge has a heading witht he name of the game. This set onto a purple background image.Just under the heading we have a call to action for the user to begin the game or a call to action button that will call a modal pop up that exaplins the rules of the game to the user.
-Uder hte call to action buton we have designed five seperate buttons that are used to play the game. Once the user presses a button the game will begin. Afte each button push a new modal will popup displaying the result of that round. Another button will be available to the user to play the next round or rerset the scores. If the user picks the next round button the games continues , if they choose the reset scores button the scoreborad will be reset and the user can start again. 
+Uder hte call to action buton we have designed five seperate buttons that are used to play the game. Once the user presses a button the game will begin. Afte each button push a new modal will popup displaying the result of that round. Another button will be available to the user to play the next round or rerset the scores. If the user picks the next round button the games continues , if they choose the reset scores button the scoreborad will be reset and the user can start again. Once the game has finished the user will get a pop up to inform them if they have won or the computer has won.
 
 Below the game buttons the footer holds text regarding the inspiation behind teh game and all social media links.
 
 
 ![All pages](assets/sitescreens/main_home.PNG)
+
 ![All pages](assets/sitescreens/call_to_action.PNG)
+
 ![All pages](assets/sitescreens/game_buttons.PNG)
+
 ![All pages](assets/sitescreens/heading.PNG)
+
 ![All pages](assets/sitescreens/result_modal.PNG)
+
 ![All pages](assets/sitescreens/how_to_play.PNG)
 
 
