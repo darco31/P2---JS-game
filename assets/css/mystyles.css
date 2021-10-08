@@ -260,9 +260,9 @@ h2 {
 /* Footer area design */
 
 #footer {
-    position: absolute;
+    position: relative;
     left: 0;
-    bottom: 5rem;
+    bottom: -15rem;
     height: 3rem;
     background-color: transparent;
     width: 100%;
