@@ -148,6 +148,10 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 
 ![LightHouse Result](assets/docs/lighthouseResults.PNG)
 
+# Mobile Results:
+
+![LightHouse Result](assets/docs/lighthouseResultMobile.PNG)
+
 ### User Stories Testing
 
 * #### As a user I want to understand what I am looking at and its use.
