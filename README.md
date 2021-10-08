@@ -146,7 +146,7 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 
 ## Lighthouse Testing
 
-![LightHouse Result](docs/Lighthousetest.PNG)
+![LightHouse Result](assets/docs/lighthouseResults.PNG)
 
 ### User Stories Testing
 
