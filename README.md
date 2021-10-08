@@ -154,51 +154,27 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 
 ### User Stories Testing
 
-* #### As a user I want to understand what I am looking at and its use.
+#### As a user I want to understand what I am looking at and its use.
+* The user should be able to tell what they are viewing and what they need to do to preoceed by the screen call to action buttons and the large heading with the name od   the game. 
+#### As a user I want to be able to understand the rules of the game and its objectives.
+* The call to action button clearly labelled "How to play" will give the user the game rules before starting.
+#### As a user I want to be able to easily find the buttons I need to press.
 
-* #### As a user I want to be able to understand the rules of the game and its objectives.
+#### As a user I want to be able to view the results of each game.
 
-* #### As a user I want to be able to easily find the buttons I need to press.
+#### As a user I would like to be givena visual alert on the winner of the game.
 
-* #### As a user I want to be able to view the results of each game.
-
-* #### As a user I would like to be givena visual alert on the winner of the game.
-
-* #### As a user I want to be able to view the results of each game.
+#### As a user I want to be able to view the results of each game.
 
 ### Manual Testing
-1. Navigation - Repeated steps on all pages.
+1. This is a one page application/game.
 
 * Click on logo to confirm that it navigates to the home page.
 * Click on all navigation links to verify that they direct to the correct pages.
 * Verify that the current page the user is on, is highlighted as active in the menu with border underline.
 * Verify that the navigation menu adjusts to the size of different screens. The navigation menu should shift from right to left and center for mobiles.
 
-2. Home page
-* Verification that the banner on the hero image plays when the page is loaded and continues to do so
-* Verify that the animation on the three images plays once the page is loaded.
-* Verify that the call to action contact button redirects to the correct page.
 
-3. Gallery
-* Verify that all images are showing in desktop, tablet and mobile.
-* Verify that all images are responding to the hover effect.
-* Verify that the call to action contact button redirects to the correct page.
-
-4. Prices
-* Verify that the prices table is reflecting the correct data.
-* Verify that the page is responsive.
-* Verify that the call to action contact button redirects to the correct page.
-
-5. Contact
-* Verify that all elements that are set to required are working.
-* Verify that valid email address is needed with relevant '@' included.
-* Verify that 'Submit' button directs user to the hidden thank you page.
-
-6. Contact Form success
-* Verify that navigation goes to the thank you page and the user can return to the home page if required.
-
-7. Footer - Repeated steps on all pages.
-* Verify that the social media links open in a new tab.
 
 ### Additional Testing  
 
@@ -207,8 +183,6 @@ W3C - HTML Validator
 W3C - CSS Validator
 
 JSHint - JavaScript Validator
-
-![LightHouse Result](docs/css_validator.PNG)
 
 #### [Back to content](#table-of-contents)
 

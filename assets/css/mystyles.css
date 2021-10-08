@@ -38,13 +38,13 @@ main {
 }
 
 #computer-pick {
-    color: rgb(0, 153, 255);
+    color: #0099ff;
     font-size: 1.2rem;
     font-family: var(--second-font-style);
 }
 
 #result {
-    color: rgb(252, 85, 34);
+    color: #fc5522;
     font-size: 1.2rem;
     font-family: var(--second-font-style);
 }
@@ -58,7 +58,7 @@ main {
 }
 
 .winning--score {
-    color: rgb(252, 85, 34);
+    color: #fc5522;
 }
 
 /* Top area */
@@ -182,58 +182,58 @@ h2 {
 }
 
 .btn--blue {
-    border-color: blue;
-    color: blue;
+    border-color: #0000ff;
+    color: #0000ff;
 }
 
 .btn--blue:active,
 .btn--blue:hover {
-    background-color: darkblue;
-    color: white;
+    background-color: #00008b;
+    color: #ffffff;
 }
 
 .btn--orange {
-    border-color: orange;
-    color: orange;
+    border-color: #ffa500;
+    color: #ffa500;
 }
 
 .btn--orange:active,
 .btn--orange:hover {
-    background-color: darkorange;
-    color: white;
+    background-color: #ff8c00;
+    color: #ffffff;
 }
 
 .btn--darkViolet {
-    border-color: violet;
-    color: violet;
+    border-color: #f387f3;
+    color: #ee82ee;
 }
 
 .btn--darkViolet:active,
 .btn--darkViolet:hover {
-    background-color: darkviolet;
-    color: white;
+    background-color: #9400d3;
+    color: #ffffff;
 }
 
 .btn--red {
-    border-color: red;
-    color: red;
+    border-color: #ff0000;
+    color: #ff0000;
 }
 
 .btn--red:active,
 .btn--red:hover {
-    background-color: darkred;
-    color: white;
+    background-color: #8b0000;
+    color: #ffffff;
 }
 
 .btn--green {
-    border-color: green;
-    color: green;
+    border-color: #008000;
+    color: #008000;
 }
 
 .btn--green:active,
 .btn--green:hover {
-    background-color: darkgreen;
-    color: white;
+    background-color: #006400;
+    color: #ffffff;
 }
 
 .btn--gray {
@@ -439,7 +439,7 @@ h2 {
         margin-top: 1rem;
         padding-top: 0.8rem;
         border-radius: 50%;
-        background-color: white;
+        background-color: #ffffff;
         border: 2px solid;
         width: 4rem;
         height: 4rem;
