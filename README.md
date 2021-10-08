@@ -206,7 +206,7 @@ JSHint - JavaScript Validator
 * Click settings and scroll down the left to find pages.
 * From source click main.
 * The site will be generated under a live address.
-* This site can be found here: [The CupCake Factory](https://darco31.github.io/theCupCakeFactory/)
+* This site can be found here: [Rock-Paper-Scissors-Lizard-Spock](https://darco31.github.io/P2---JS-game/)
 
 #### [Back to content](#table-of-contents)
 
