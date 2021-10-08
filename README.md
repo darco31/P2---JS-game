@@ -134,6 +134,8 @@ Below the game buttons the footer holds text regarding the inspiation behind teh
     - Used to validate the HTML code.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Used to validate the CSS code.
+* [JS Hint](https://jshint.com/)
+    - Used to validate the JavaScript code.
 
 #### [Back to content](#table-of-contents)
 ---
@@ -199,6 +201,8 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 W3C - HTML Validator
 
 W3C - CSS Validator
+
+JSHint - JavaScript Validator
 
 ![LightHouse Result](docs/css_validator.PNG)
 
