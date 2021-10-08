@@ -37,7 +37,6 @@ document.querySelector('.close--lose').addEventListener("click", function() {
 // Variables for computers choice , result and scores
 
 let result;
-let scores;
 
 /**
  * Function to generate a random number to assign to computer game choice
