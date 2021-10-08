@@ -53,7 +53,7 @@ function computerPick() {
         case 1:
             return 'Rock';
         case 2:
-            return 'Paper'
+            return 'Paper';
         case 3:
             return 'Scissors';
         case 4:
