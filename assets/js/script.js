@@ -32,8 +32,6 @@ document.querySelector('.close--lose').addEventListener("click", function() {
     document.querySelector('.lose__modal').style.display = "none";
 });
 
-
-
 // Variables for computers choice , result and scores
 
 let result;
@@ -41,7 +39,6 @@ let result;
 /**
  * Function to generate a random number to assign to computer game choice
  */
-
 
 function computerPick() {
 
@@ -64,11 +61,9 @@ function computerPick() {
     }
 }
 
-
 /**
  * This function decides the outcome and displays the result in a results modal
  */
-
 
 function getTheResult(userPicked) {
 
@@ -112,9 +107,6 @@ function getTheResult(userPicked) {
     computerIcon(computerPicked);
     endResult(result);
     return result;
-
-
-
 }
 
 function userPick(userIcon) {
@@ -140,7 +132,6 @@ function resetScores() {
     document.getElementById('user-score').innerText = 0;
     document.getElementById('computer-score').innerText = 0;
 }
-
 
 /**
  * Increses either player score by one if they win
@@ -168,7 +159,6 @@ function decreaseScore() {
         document.querySelector('#play--again').style.display = "none";
     }
 }
-
 
 if (resetScores) {
     document.querySelector('.reset-button ').addEventListener("click", function() {
