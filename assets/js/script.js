@@ -61,11 +61,21 @@ function computerPick() {
     }
 }
 
+// Added the event listners to replace onclick events int he HTML code
+
+document.getElementById('rock').addEventListener("click", getTheResult);
+document.getElementById('paper').addEventListener("click", getTheResult);
+document.getElementById('scissors').addEventListener("click", getTheResult);
+document.getElementById('lizard').addEventListener("click", getTheResult);
+document.getElementById('spock').addEventListener("click", getTheResult);
+
 /**
  * This function decides the outcome and displays the result in a results modal
  */
 
 function getTheResult(userPicked) {
+
+    userPicked = userPicked.srcElement.id
 
     let computerPicked = computerPick();
 
