@@ -18,7 +18,7 @@
 4. [Technology Used In Design](#Technology-Used-In-Design)
    * [HTML](#HTML)
    * [CSS](#CSS)
-   * [JavaScript](#JS)
+   * [JavaScript](#JavaScript)
    * [Libraries](#Libraries)
 5. [Testing](#Testing)
    * [Lighthouse Testing](#Lighthouse-Testing)
