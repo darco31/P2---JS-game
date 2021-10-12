@@ -15,16 +15,14 @@
    * [Wireframes](#Wireframes)
 3. [Features](#Features)
    * [Home Page](#Home-Page)
-   * [Gallery Page](#Gallery-Page)
-   * [Contact Page](#Contact-Page)
-   * [Prices Page](#Prices-Page)
-   * [All pages](#All-pages)
 4. [Technology Used In Design](#Technology-Used-In-Design)
    * [HTML](#HTML)
    * [CSS](#CSS)
+   * [JavaScript](#JS)
    * [Libraries](#Libraries)
 5. [Testing](#Testing)
    * [Lighthouse Testing](#Lighthouse-Testing)
+   * [JSHint Testing](#JSHint-results)
    * [Manual Testing](#Manual-Testing)
    * [Additional Testing ](#Additional-Testing)
 6. [Deployment](#Deployment)
@@ -114,7 +112,7 @@ Below the game buttons the footer holds text regarding the inspiation behind teh
 
 ### JavaScript
 
-* Javascript has been used to make the game/site interaxctive for the user. The buttons and modals are all controlled by the Javascript.
+* Javascript has been used to make the game/site interactive for the user. The buttons and modals are all controlled by the Javascript.
 
 ### Libraries
 
@@ -148,9 +146,15 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 
 ![LightHouse Result](assets/docs/lighthouseResults.PNG)
 
-# Mobile Results:
+# Lighthouse Mobile Results:
 
 ![LightHouse Result](assets/docs/lighthouseResultMobile.PNG)
+
+# JSHint results
+
+![LightHouse Result](assets/docs/JShint_one.PNG)
+![LightHouse Result](assets/docs/JShint2.PNG)
+![LightHouse Result](assets/docs/JShint3.PNG)
 
 ### User Stories Testing
 
@@ -192,7 +196,7 @@ JSHint - JavaScript Validator
 
 ### Project creation
 
-* I developed and deployed the Website using Github abd Gitpod as my code editor using the below steps:
+* I developed and deployed the Website using Github and Gitpod as my code editor using the below steps:
 1. Create your account using the email of choice.
 1. Create a new repository giving it a name.
 1. Click the Gitpod button to start the code editor.

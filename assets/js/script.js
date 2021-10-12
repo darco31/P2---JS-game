@@ -57,7 +57,7 @@ function computerPick() {
         case 5:
             return 'Spock';
         default:
-            return 'error'
+            return 'error';
     }
 }
 
@@ -75,7 +75,7 @@ document.getElementById('spock').addEventListener("click", getTheResult);
 
 function getTheResult(userPicked) {
 
-    userPicked = userPicked.srcElement.id
+    userPicked = userPicked.srcElement.id;
 
     let computerPicked = computerPick();
 
@@ -89,27 +89,27 @@ function getTheResult(userPicked) {
             result = 'You win';
 
         } else if (userPicked === 'Paper' && (computerPicked == 'Rock' || computerPicked == 'Spock')) {
-            increaseScore()
+            increaseScore();
             result = 'You win';
 
         } else if (userPicked === 'Paper' && (computerPicked == 'Rock' || computerPicked == 'Spock')) {
-            increaseScore()
+            increaseScore();
             result = 'You win';
 
         } else if (userPicked === 'Scissors' && (computerPicked == 'Paper' || computerPicked == 'Lizard')) {
-            increaseScore()
+            increaseScore();
             result = 'You win';
 
         } else if (userPicked === 'Lizard' && (computerPicked == 'Spock' || computerPicked == 'Paper')) {
-            increaseScore()
+            increaseScore();
             result = 'You win';
 
         } else if (userPicked === 'Spock' && (computerPicked == 'Scissors' || computerPicked == 'Rock')) {
-            increaseScore()
-            result = 'You win';;
+            increaseScore();
+            result = 'You win';
         } else {
-            decreaseScore()
-            result = 'You lose!'
+            decreaseScore();
+            result = 'You lose!';
 
         }
     }
@@ -169,9 +169,3 @@ function decreaseScore() {
         document.querySelector('#play--again').style.display = "none";
     }
 }
-
-// if (resetScores) {
-//     document.querySelector('.reset-button ').addEventListener("click", function() {
-//         document.querySelector('#play--again').style.display = "flex";
-//     });
-// }
