@@ -23,6 +23,7 @@
 5. [Testing](#Testing)
    * [Lighthouse Testing](#Lighthouse-Testing)
    * [JSHint Testing](#JSHint-results)
+   * [User Stories](#User-Stories-Testing)
    * [Manual Testing](#Manual-Testing)
    * [Additional Testing ](#Additional-Testing)
 6. [Deployment](#Deployment)
@@ -60,9 +61,8 @@
 * As a user I want to understand what I am looking at and its use.
 * As a user I want to be able to understand the rules of the game and its objectives.
 * As a user I want to be able to easily find the buttons I need to press.
-* As a user I want to be able to view the results of each game.
-* As a user I would like to be able to rest the scores on the bored.
-* As a user I would like to be givena  visual alert on the winner of the game.
+* As a user I would like to be able to reset the scores on the bored.
+* As a user I would like to be givena visual alert on the winner of the game.
 
 ### Target Audience
 
@@ -163,22 +163,19 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 #### As a user I want to be able to understand the rules of the game and its objectives.
 * The call to action button clearly labelled "How to play" will give the user the game rules before starting.
 #### As a user I want to be able to easily find the buttons I need to press.
-
+* The buttons are clearly marked and identifiable to the user.
 #### As a user I want to be able to view the results of each game.
+After each round of the game, a modal appears that lets the user know the reult of a particular game.
+#### As a user I would like to be given a visual alert on the winner of the game.
+Once the game has been complted the user will get a pop advising if they won or loat the game. Once they close the pop up the can only stop playing or reset the game to start again.
 
-#### As a user I would like to be givena visual alert on the winner of the game.
-
-#### As a user I want to be able to view the results of each game.
 
 ### Manual Testing
 1. This is a one page application/game.
 
-* Click on logo to confirm that it navigates to the home page.
-* Click on all navigation links to verify that they direct to the correct pages.
-* Verify that the current page the user is on, is highlighted as active in the menu with border underline.
-* Verify that the navigation menu adjusts to the size of different screens. The navigation menu should shift from right to left and center for mobiles.
-
-
+* The appication opens from the deployed address
+* All buttons work as expected. All links to social pages work as expected
+* Verify that the screen adjusts to the size of different types of systems.
 
 ### Additional Testing  
 
@@ -220,8 +217,8 @@ JSHint - JavaScript Validator
 
 ### Code
 
-* Code construct credit to The Code Institute and their informative and well laid out lessons.
-* Also credit to [W3 Schools](https://www.w3schools.com/), their lessons on tables and the Grid layout helped to further my understanding.
+* Code construct credit to The Code Institute and their informative and well laid out lessons.[The Code Institute](https://www.the codeinstitute.com/)
+* Also credit to [W3 Schools](https://www.w3schools.com/), their lessons oj Javascript helped in the code deign.[W3 Schools](https://www.w3schools.com/js/DEFAULT.asp)
 * Pictures and videos are from [Pexels](https://www.pexels.com/)
 
 ### Content
@@ -232,13 +229,9 @@ JSHint - JavaScript Validator
 
 ## Bugs
 
-* Gitpod
+* Code
 
-Bug found in Gitpod where the text in the terminal is virtually unreadable making spelling mistakes hard to see when writing commit messages. This was identified as a known issue and was being investigated by the Gitpod teams.
-
-![Gitpod terminal image](assets/images/gitpod_img.PNG)
-
-Links when used in Gitpod are not working correctly. I had to push the changes to github and test from there. Gitpod is also showing some of the back to top links with the hashtags. Again this is not representative of the github page. I have come across a lot of issues in Gitpod that cause the developer to use more steps to verify their code.
+One bug was found and fixed. I added a fixed footer that was causing an issue by trying to get a scroll bar to appear but all this did was cause the screen to shke when a button was pressed. Adjusting the footer to be relative fixed the issue.
 
 * Code validation:
 
@@ -246,6 +239,6 @@ When I have validated all the code in W3 validator there are two known warnings 
 
 * Internet Explorer 11
 
-The hero banner is not covering the page and the maps state that the browser is not supported. As IE11 is not used as much and will be obsolete soon being replaced with MS Edge I believe it would be of no benefit to  fix the issue as it may cause issues on other more popular browsers.
+As IE11 is not used as much and will be obsolete soon being replaced with MS Edge I believe it would be of no benefit to test the application as any changes may cause issues on other more popular browsers.
 
 #### [Back to content](#table-of-contents)
