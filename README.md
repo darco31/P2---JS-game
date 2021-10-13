@@ -181,7 +181,11 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 
 W3C - HTML Validator
 
+![HTML Validator](assets/docs/HTML_validator.PNG)
+
 W3C - CSS Validator
+
+![CSS Validator](assets/docs/CSS_validator.PNG)
 
 JSHint - JavaScript Validator
 
