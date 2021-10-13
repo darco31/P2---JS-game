@@ -141,6 +141,7 @@ function endResult(gameResult) {
 function resetScores() {
     document.getElementById('user-score').innerText = 0;
     document.getElementById('computer-score').innerText = 0;
+    document.querySelector('#play--again').style.display = "flex"
 }
 
 /**
