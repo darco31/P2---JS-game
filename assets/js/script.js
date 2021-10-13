@@ -63,11 +63,11 @@ function computerPick() {
 
 // Added the event listners to replace onclick events int he HTML code
 
-document.getElementById('rock').addEventListener("click", getTheResult);
-document.getElementById('paper').addEventListener("click", getTheResult);
-document.getElementById('scissors').addEventListener("click", getTheResult);
-document.getElementById('lizard').addEventListener("click", getTheResult);
-document.getElementById('spock').addEventListener("click", getTheResult);
+document.getElementById('Rock').addEventListener("click", getTheResult);
+document.getElementById('Paper').addEventListener("click", getTheResult);
+document.getElementById('Scissors').addEventListener("click", getTheResult);
+document.getElementById('Lizard').addEventListener("click", getTheResult);
+document.getElementById('Spock').addEventListener("click", getTheResult);
 
 /**
  * This function decides the outcome and displays the result in a results modal
@@ -85,10 +85,6 @@ function getTheResult(userPicked) {
     } else {
 
         if (userPicked === 'Rock' && (computerPicked == 'Scissors' || computerPicked == 'Lizard')) {
-            increaseScore();
-            result = 'You win';
-
-        } else if (userPicked === 'Paper' && (computerPicked == 'Rock' || computerPicked == 'Spock')) {
             increaseScore();
             result = 'You win';
 
