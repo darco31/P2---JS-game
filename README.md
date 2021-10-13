@@ -70,7 +70,7 @@
 
 ### Wireframes
 
-* All wireframes can be found [Here](docs/Wireframes.pdf)
+* All wireframes can be found [Here](assets/docs/Wireframes.pdf)
 
 #### [Back to content](#table-of-contents)
 ---
