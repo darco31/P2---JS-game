@@ -35,15 +35,15 @@
 # Rock-Paper-Scissors-Lizard-Spock
 
 ### About
-* A small fun interactive Javascript game that can be played by all. test your wits against the computer.  
+* A small fun interactive Javascript game that can be played by all. Test your wits against the computer.  
 
 ### The business goals
 * To build a fun interactive game that can be enjoyed by everyone.
-* To provide an intuative interface for the user.
+* To provide an intuitive interface for the user.
 
 ### The customer goals
 * To have a clear understanding of the game and how to play it.
-* Clear easy to read instructions and alerts avaiable at all times.
+* Clear easy to read instructions and alerts available at all times.
 
 ---
  
@@ -51,10 +51,10 @@
 
 ### Project goals:
 * The main goal of the project is to showcase my game to a wider audience that can be played and is visually pleasing for all users.
-* On positive feed back add functionality to the exsoisting game and add more games to the page.
+* On positive feed back add functionality to the exsisting game and add more games to the page.
 ​
 ### Design:
-* The design uses a space themed background image eith bold fonts that contrast each other very well and allow the user to easily distiguish between headings and call to action buttons.
+* The design uses a space themed background image with bold fonts that contrast each other very well and allow the user to easily distinguishbetween headings and call to action buttons.
 * The images are sized correctly and each page is designed to look like the home page.
 ​
 ### User Stories
@@ -62,7 +62,7 @@
 * As a user I want to be able to understand the rules of the game and its objectives.
 * As a user I want to be able to easily find the buttons I need to press.
 * As a user I would like to be able to reset the scores on the bored.
-* As a user I would like to be givena visual alert on the winner of the game.
+* As a user I would like to be given a visual alert on the winner of the game.
 
 ### Target Audience
 
@@ -78,10 +78,10 @@
 ## Features
 
 #### Home Page 
-There is only one page for this game , the homapge has a heading witht he name of the game. This set onto a purple background image.Just under the heading we have a call to action for the user to begin the game or a call to action button that will call a modal pop up that exaplins the rules of the game to the user.
-Uder hte call to action buton we have designed five seperate buttons that are used to play the game. Once the user presses a button the game will begin. Afte each button push a new modal will popup displaying the result of that round. Another button will be available to the user to play the next round or rerset the scores. If the user picks the next round button the games continues , if they choose the reset scores button the scoreborad will be reset and the user can start again. Once the game has finished the user will get a pop up to inform them if they have won or the computer has won.
+There is only one page for this game , the homepage has a heading with the name of the game. This is set onto a purple background image.Just under the heading we have a call to action for the user to begin the game or a call to action button that will call a modal pop up that explains the rules of the game to the user.
+Under the call to action button we have designed five separate buttons that are used to play the game. Once the user presses a button the game will begin. After each button push a new modal will popup displaying the result of that round. Another button will be available to the user to play the next round or rerset the scores. If the user picks the next round button the games continues , if they choose the reset scores button the scoreboard will be reset and the user can start again. Once the game has finished the user will get a pop up to inform them if they have won or the computer has won.
 
-Below the game buttons the footer holds text regarding the inspiation behind teh game and all social media links.
+Below the game buttons the footer holds text regarding the inspiration behind the game and all social media links.
 
 
 ![All pages](assets/sitescreens/main_home.PNG)
@@ -159,21 +159,21 @@ Testing was manually completed through the use of Googles Chrome browser and Fir
 ### User Stories Testing
 
 #### As a user I want to understand what I am looking at and its use.
-* The user should be able to tell what they are viewing and what they need to do to preoceed by the screen call to action buttons and the large heading with the name od   the game. 
+* The user should be able to tell what they are viewing and what they need to do to proceed by the screen call to action buttons and the large heading with the name of the game. 
 #### As a user I want to be able to understand the rules of the game and its objectives.
 * The call to action button clearly labelled "How to play" will give the user the game rules before starting.
 #### As a user I want to be able to easily find the buttons I need to press.
 * The buttons are clearly marked and identifiable to the user.
 #### As a user I want to be able to view the results of each game.
-After each round of the game, a modal appears that lets the user know the reult of a particular game.
+* After each round of the game, a modal appears that lets the user know the result of a particular game.
 #### As a user I would like to be given a visual alert on the winner of the game.
-Once the game has been complted the user will get a pop advising if they won or loat the game. Once they close the pop up the can only stop playing or reset the game to start again.
+* Once the game has been completed the user will get a pop up modal advising if they won or lost the game. Once they close the pop up they can only stop playing or reset the game to start again.
 
 
 ### Manual Testing
-1. This is a one page application/game.
+1. This is a one-page application/game.
 
-* The appication opens from the deployed address
+* The application opens from the deployed address
 * All buttons work as expected. All links to social pages work as expected
 * Verify that the screen adjusts to the size of different types of systems.
 
