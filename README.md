@@ -228,7 +228,7 @@ JSHint - JavaScript Validator
 ### Content
 * All content written by the developer Stephen D'Arcy
 
-* Inspiration was taken from the Love Maths projscet for the button design.
+* Inspiration was taken from the Love Maths project for the button design.
 
 * Thanks to my mentor Miguel for all his advice and help throughout the project. Also to the various people on Slack who helped with little bugs and always provided encouragement.
 ---
