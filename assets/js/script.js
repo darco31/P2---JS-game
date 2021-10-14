@@ -57,7 +57,8 @@ function computerPick() {
         case 5:
             return 'Spock';
         default:
-            return 'error';
+            console.log("Unknown pick,please try again");
+            throw "Unknown game type: Aborting!";
     }
 }
 
