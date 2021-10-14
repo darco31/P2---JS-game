@@ -32,7 +32,7 @@ document.querySelector('.close--lose').addEventListener("click", function() {
     document.querySelector('.lose__modal').style.display = "none";
 });
 
-// Variables for computers choice , result and scores
+// Variables for result
 
 let result;
 
@@ -61,7 +61,7 @@ function computerPick() {
     }
 }
 
-// Added the event listners to replace onclick events int he HTML code
+// Added the event listners to replace onclick events in the HTML code
 
 document.getElementById('Rock').addEventListener("click", getTheResult);
 document.getElementById('Paper').addEventListener("click", getTheResult);

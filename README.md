@@ -54,7 +54,7 @@
 * On positive feed back add functionality to the exsisting game and add more games to the page.
 ​
 ### Design:
-* The design uses a space themed background image with bold fonts that contrast each other very well and allow the user to easily distinguishbetween headings and call to action buttons.
+* The design uses a space themed background image with bold fonts that contrast each other very well and allow the user to easily distinguish between headings and call to action buttons.
 * The images are sized correctly and each page is designed to look like the home page.
 ​
 ### User Stories
@@ -227,6 +227,8 @@ JSHint - JavaScript Validator
 
 ### Content
 * All content written by the developer Stephen D'Arcy
+
+* Inspiration was taken from the Love Maths projscet for the button design.
 
 * Thanks to my mentor Miguel for all his advice and help throughout the project. Also to the various people on Slack who helped with little bugs and always provided encouragement.
 ---
